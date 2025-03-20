@@ -1,0 +1,298 @@
+body{
+    margin: 0px;
+    padding: 0px;
+     background-image:url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+*{
+    font-family: arial;
+}
+div.maincontent{
+
+}
+div.navbar{
+   display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+}      
+
+div.navbar a{
+    color: white;
+    margin: 50px;
+}
+/*div.navbar ajoin{
+    padding: 10px;
+    border-radius: 8px;
+    border:2px solid white;
+    background-color: transparent;
+    color: white;
+    
+}*/
+div.details{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    
+}
+div.details a{
+  text-align: center;
+    color: darkturquoise;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+div.maingame{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius:20px;
+    margin-top: 50px;
+    line-height:20px;
+    
+    
+}
+div.maingamebutton{
+    padding: 10px;
+    border-radius: 8px;
+    border:2px solid white;
+    background-color: aqua;
+    color: white;
+    border: none;
+    
+}
+div.maingame img{
+    margin-right: -100px;
+    border-radius: 20px;
+}
+div.items{
+    height: 300px;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+div.item{
+    background-color: white;
+    margin: 20px;
+    
+    text-align: center;
+    color:black;
+    font-family:arial;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+h1.upcoming{
+text-align: center;
+}
+div.item1{
+    background-image: url(supermario.jpg);
+    background-size: cover;
+}
+div.item2{
+    background-image: url(NBA%202K25%20-%20PlayStation%205.jpg);
+    background-size: cover;
+}
+div.item3{
+    background-image: url("download%20(10).jpg");
+    background-size: cover;
+}
+div.item4{
+    background-image: url("download%20(11).jpg");
+    background-size: cover;
+}
+div.items h3{
+    margin-left: 50px;
+}
+div.posts{
+     display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+div.post{
+    margin: 25px;
+    background-color: black;
+    border-radius: 8px;
+    
+}
+div.post1 div.img, div.post2 div.img,div.post3 div.img{
+    background-image: url(PS5%20PRO.jpg);
+    height: 150px;;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+div.post h3,div.post p{
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+div.post p{
+    font-size: 15px;
+}
+div.post h5{
+    
+    text-align: center;
+    
+
+}
+div.postscontent h1,div.post p{
+    text-align: center;
+    
+}
+div.posts2 div.img{
+    background-image: url(headphones.jpg);
+}
+div.posts3 div.img{
+    background-image:url(download%20(12).jpg)
+}
+div.test{
+    text-align: center;
+    justify-content: center;
+}
+div.testis{
+  display: flex;
+    justify-content:space-around;
+    width: 50%;
+    margin: auto;
+
+    text-align: center;  
+}
+div.testi{
+    background-color: black;
+    color: white;
+}
+div.testi1 div.img{
+    background-image: url(man.png);
+    
+}
+div.testi2 div.img{
+    background-image: url(girl.png);
+    
+}
+div.testi div.img{
+    width:50%;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+    background-image: url(man.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    
+}
+div.test h1{
+    text-align: center;
+    margin-bottom;
+
+}
+.pricing h2{
+text-align:center;
+}
+.prices{
+    display:flex;
+    justify-content:center;
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+.price{
+    width:30%;
+    background-color:darkcyan;
+    color:White;
+    margin:8px;
+    padding-bottom: 15px;
+    padding-top:15px;
+    border-radius:8px;
+    
+}
+.price button{
+  padding: 10px;
+    border-radius: 8px;
+    border:2px solid white;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;  
+}
+.planprice{
+background-color:darkblue;
+padding:15px;
+}
+.planprice h3{
+   margin:0px;
+    
+}
+.joinform{
+display:flex;
+    justify-content:center;
+    margin:auto;
+    width:60%;
+    border:1px solid black;
+    border-radius:10px;
+    margin-top:50px;
+}
+ .joinform .image{
+   width: 40%;
+}
+.joinform .form{
+    width:60%;
+    margin-left: 30px;
+    color: black;
+    font-size:25px;
+}
+.joinform .image{
+background-image:url(EA%20SPORTS%20FC%2025%20-%20PlayStation%205.jpg);
+    background-size:cover;
+    background-position:top;
+    height:400px;
+    padding:15px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    
+}
+form input,form button{
+    padding:10px;
+        font-size:16px;
+    border:1px solid cadetblue;
+    border-radius:5px;
+    display:block;
+    margin:10px;
+    
+}
+.form{
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    padding-top:100px;
+}
+form button{
+    background-color:blue;
+    color:white;
+}
+.footer{
+    color:white;
+    background-color:aqua;
+    text-align:center;
+    padding:10px;
+    margin-top:50px;
+}
